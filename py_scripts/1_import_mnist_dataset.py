@@ -8,6 +8,6 @@ from tensorflow import keras
 train_images = mnist.train_images()
 train_labels = mnist.train_labels()
 
-# Print shape of arrays
+# Print dataset dimensions
 print(train_images.shape)
 print(train_labels.shape)
